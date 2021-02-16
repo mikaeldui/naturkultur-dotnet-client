@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>NaturKultur.Onlineboken</RootNamespace>
+    <PackageId>MikaelDui.NaturKultur.Onlineboken.Client</PackageId>
+    <Authors>Mikael Dúi Bolinder</Authors>
+    <Product>Natur &amp; Kultur Onlineboken Client</Product>
+    <Description>An unofficial .NET client for Natur &amp; Kultur Onlineboken.</Description>
+    <RepositoryUrl>https://github.com/mikaeldui/NaturKulturOnlinebokenClient</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Natur &amp; Kultur, Education, E-books</PackageTags>
+    <PackageReleaseNotes>Initial version.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/mikaeldui/NaturKulturOnlinebokenClient</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>
