@@ -1,0 +1,227 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logga in - Natur & Kultur</title>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+
+    <link href="/lib-styles/nokstrap.css" rel="stylesheet" />
+
+    <link href="/css/fonts/AvenirNext/fontface.css" rel="stylesheet" />
+    <link href="/css/fonts/ModernMT/fontface.css" rel="stylesheet" />
+
+    <link href="/css/main.css" rel="stylesheet" />
+    <link href="/css/pages.css" rel="stylesheet" />
+
+    <script type="text/javascript">
+
+    var appInsights=window.appInsights||function(a){
+        function b(a){c[a]=function(){var b=arguments;c.queue.push(function(){c[a].apply(c,b)})}}var c={config:a},d=document,e=window;setTimeout(function(){var b=d.createElement("script");b.src=a.url||"https://az416426.vo.msecnd.net/scripts/a/ai.0.js",d.getElementsByTagName("script")[0].parentNode.appendChild(b)});try{c.cookie=d.cookie}catch(a){}c.queue=[];for(var f=["Event","Exception","Metric","PageView","Trace","Dependency"];f.length;)b("track"+f.pop());if(b("setAuthenticatedUserContext"),b("clearAuthenticatedUserContext"),b("startTrackEvent"),b("stopTrackEvent"),b("startTrackPage"),b("stopTrackPage"),b("flush"),!a.disableExceptionTracking){f="onerror",b("_"+f);var g=e[f];e[f]=function(a,b,d,e,h){var i=g&&g(a,b,d,e,h);return!0!==i&&c["_"+f](a,b,d,e,h),i}}return c
+    }({
+        instrumentationKey: 'cc974dc4-74d7-432b-9ae7-845174b585d8'
+    });
+
+    window.appInsights=appInsights,appInsights.queue&&0===appInsights.queue.length&&appInsights.trackPageView();
+
+    </script>
+</head>
+<body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38711194-17"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-38711194-17');
+    </script>
+    <div class="ImportantMessage" style="display: none;"></div>
+    <header>
+        <a class="Logo" href="https://www.nok.se/">
+            <div class="overlay"><span class="Text Text--small"><i class="Icon Icon--chevron-backward"></i> Natur & Kultur</span></div>
+        </a>
+    </header>
+    <div class="body-content-wrapper">
+        <div class="body-content-inner-wrapper">
+            <div class="body-content">
+
+
+
+
+
+                <div id="login-page">
+                    <div class="page-content">
+                        <h2 class="no-margin">Logga in till Mina sidor</h2>
+                        <form id="login-form" action="" method="post">
+                            <input type="hidden" id="ReturnUrl" name="ReturnUrl" value="/connect/authorize/callback?client_id=portal.nok.se&amp;redirect_uri=https%3A%2F%2Fportal.nok.se%2Fsignin-oidc&amp;response_type=code%20id_token&amp;scope=openid%20naturochkultur%20login%20aboservices%20orders&amp;response_mode=form_post&amp;nonce=637491070071713590.MTE0NTQyNjctOWEzMi00ZTlhLTlhNDctMzYzODI4MzAzZDI5ZGZhZmNmMDgtYTUxNC00Y2ZiLWI5ODktYTI4NzFkMTJmODNl&amp;login_hint&amp;state=CfDJ8BKqhpCXDm1MoLwhzW61IrelSAtQL0v1NoCrJ-SPVMWQ6_-_3om_OD5Y5o-RkpABgDtPFeDv7h2OTv3hNOIBtnmqRltmLg90cFpm6NjMPSAUErnA3nLl9S4FlF_s0MgO2pbtYRokyyA9Myl6vzNsjWkMVfQ8xUju030BALaehM8AXTBGQXvb2fsEn9zbb4LAuRmTgo0TyqO1S7wO2_SIrBLOVlAvuQBzYjZxdtwRp09MOuiHpFggfRSy2ecnSW6JDbClC3K2MyP2vnXBQfUosygwlwnsd2UzVaXXyYTZYaCF0Ycubv13V-BEphqUJM1Q2Jyy9r2hpkXHvtEoCoEsM7k&amp;x-client-SKU=ID_NETSTANDARD1_4&amp;x-client-ver=5.2.0.0" />
+                            <!-- User name, email -->
+                            <div class="LabelInput">
+                                <label for="Username">E-post eller användarnamn</label>
+                                <input id="login-input" type="text" class="Input  " required maxlength="256" data-val="true" data-val-required="The Username field is required." name="Username" value="">
+                            </div>
+                            <div class="ErrorMessage"><span class="field-validation-valid" data-valmsg-for="Username" data-valmsg-replace="true"></span></div>
+                            <!-- Password -->
+                            <div id="password-container" class="LabelInput hidden">
+                                <label for="Password">Lösenord</label>
+                                <input id="password-input" type="password" class="Input  " value="" required maxlength="256" data-val="true" data-val-required="The Password field is required." name="Password">
+                                <a id="show-password-link" class="Text Text--small">Visa</a>
+                                <a id="hide-password-link" class="Text Text--small" style="display: none;">Dölj</a>
+                            </div>
+                            <div class="ErrorMessage"><span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span></div>
+                            <div id="validation-summary-container">
+
+                            </div>
+                            <!-- Login button -->
+                            <button id="next-button" class="Button Button--inverted">
+                                <span id="next-button-next-text">Nästa</span>
+                                <span id="next-button-login-text" style="display: none">Logga in</span>
+                            </button>
+                            <div id="links">
+                                <div class="LinkText Text Text--small">
+                                    <a class="Text" href="/account/register?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dportal.nok.se%26redirect_uri%3Dhttps%253A%252F%252Fportal.nok.se%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520naturochkultur%2520login%2520aboservices%2520orders%26response_mode%3Dform_post%26nonce%3D637491070071713590.MTE0NTQyNjctOWEzMi00ZTlhLTlhNDctMzYzODI4MzAzZDI5ZGZhZmNmMDgtYTUxNC00Y2ZiLWI5ODktYTI4NzFkMTJmODNl%26login_hint%26state%3DCfDJ8BKqhpCXDm1MoLwhzW61IrelSAtQL0v1NoCrJ-SPVMWQ6_-_3om_OD5Y5o-RkpABgDtPFeDv7h2OTv3hNOIBtnmqRltmLg90cFpm6NjMPSAUErnA3nLl9S4FlF_s0MgO2pbtYRokyyA9Myl6vzNsjWkMVfQ8xUju030BALaehM8AXTBGQXvb2fsEn9zbb4LAuRmTgo0TyqO1S7wO2_SIrBLOVlAvuQBzYjZxdtwRp09MOuiHpFggfRSy2ecnSW6JDbClC3K2MyP2vnXBQfUosygwlwnsd2UzVaXXyYTZYaCF0Ycubv13V-BEphqUJM1Q2Jyy9r2hpkXHvtEoCoEsM7k%26x-client-SKU%3DID_NETSTANDARD1_4%26x-client-ver%3D5.2.0.0">
+                                        Skapa konto
+                                    </a>
+                                </div>
+                                <div class="LinkText">
+                                    <a id="forgot-password-link" class="Text Text--small" href="/account/forgotpassword?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dportal.nok.se%26redirect_uri%3Dhttps%253A%252F%252Fportal.nok.se%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520naturochkultur%2520login%2520aboservices%2520orders%26response_mode%3Dform_post%26nonce%3D637491070071713590.MTE0NTQyNjctOWEzMi00ZTlhLTlhNDctMzYzODI4MzAzZDI5ZGZhZmNmMDgtYTUxNC00Y2ZiLWI5ODktYTI4NzFkMTJmODNl%26login_hint%26state%3DCfDJ8BKqhpCXDm1MoLwhzW61IrelSAtQL0v1NoCrJ-SPVMWQ6_-_3om_OD5Y5o-RkpABgDtPFeDv7h2OTv3hNOIBtnmqRltmLg90cFpm6NjMPSAUErnA3nLl9S4FlF_s0MgO2pbtYRokyyA9Myl6vzNsjWkMVfQ8xUju030BALaehM8AXTBGQXvb2fsEn9zbb4LAuRmTgo0TyqO1S7wO2_SIrBLOVlAvuQBzYjZxdtwRp09MOuiHpFggfRSy2ecnSW6JDbClC3K2MyP2vnXBQfUosygwlwnsd2UzVaXXyYTZYaCF0Ycubv13V-BEphqUJM1Q2Jyy9r2hpkXHvtEoCoEsM7k%26x-client-SKU%3DID_NETSTANDARD1_4%26x-client-ver%3D5.2.0.0">Glömt lösenord?</a>
+                                </div>
+                            </div>
+                            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8MdoJ0JXdpBBp-Q2tIASt5S5rdd-qjmTS27PmK6jmDTxm3IdRmrmjtYws3nCNnc-_Xbwl3acHnoEKyhVTQ2TVwW8yKRecz0VAE8aRkTBtH9rjCJCygmDVCGirHjW2n3BSn22EhSGdX_qq0hmZGczedM" />
+                        </form>
+                    </div>
+                    <div class="external-providers-section page-footer">
+                        <a class="Text Text--small" href="/account/externallogins?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dportal.nok.se%26redirect_uri%3Dhttps%253A%252F%252Fportal.nok.se%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520naturochkultur%2520login%2520aboservices%2520orders%26response_mode%3Dform_post%26nonce%3D637491070071713590.MTE0NTQyNjctOWEzMi00ZTlhLTlhNDctMzYzODI4MzAzZDI5ZGZhZmNmMDgtYTUxNC00Y2ZiLWI5ODktYTI4NzFkMTJmODNl%26login_hint%26state%3DCfDJ8BKqhpCXDm1MoLwhzW61IrelSAtQL0v1NoCrJ-SPVMWQ6_-_3om_OD5Y5o-RkpABgDtPFeDv7h2OTv3hNOIBtnmqRltmLg90cFpm6NjMPSAUErnA3nLl9S4FlF_s0MgO2pbtYRokyyA9Myl6vzNsjWkMVfQ8xUju030BALaehM8AXTBGQXvb2fsEn9zbb4LAuRmTgo0TyqO1S7wO2_SIrBLOVlAvuQBzYjZxdtwRp09MOuiHpFggfRSy2ecnSW6JDbClC3K2MyP2vnXBQfUosygwlwnsd2UzVaXXyYTZYaCF0Ycubv13V-BEphqUJM1Q2Jyy9r2hpkXHvtEoCoEsM7k%26x-client-SKU%3DID_NETSTANDARD1_4%26x-client-ver%3D5.2.0.0">Fler sätt att logga in</a>
+                        <div class="external-providers-list">
+                            <a title="Skolon" href="/account/externallogin?provider=Skolon&amp;returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dportal.nok.se%26redirect_uri%3Dhttps%253A%252F%252Fportal.nok.se%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520naturochkultur%2520login%2520aboservices%2520orders%26response_mode%3Dform_post%26nonce%3D637491070071713590.MTE0NTQyNjctOWEzMi00ZTlhLTlhNDctMzYzODI4MzAzZDI5ZGZhZmNmMDgtYTUxNC00Y2ZiLWI5ODktYTI4NzFkMTJmODNl%26login_hint%26state%3DCfDJ8BKqhpCXDm1MoLwhzW61IrelSAtQL0v1NoCrJ-SPVMWQ6_-_3om_OD5Y5o-RkpABgDtPFeDv7h2OTv3hNOIBtnmqRltmLg90cFpm6NjMPSAUErnA3nLl9S4FlF_s0MgO2pbtYRokyyA9Myl6vzNsjWkMVfQ8xUju030BALaehM8AXTBGQXvb2fsEn9zbb4LAuRmTgo0TyqO1S7wO2_SIrBLOVlAvuQBzYjZxdtwRp09MOuiHpFggfRSy2ecnSW6JDbClC3K2MyP2vnXBQfUosygwlwnsd2UzVaXXyYTZYaCF0Ycubv13V-BEphqUJM1Q2Jyy9r2hpkXHvtEoCoEsM7k%26x-client-SKU%3DID_NETSTANDARD1_4%26x-client-ver%3D5.2.0.0">
+                                <img src="/images/icon-skolon.svg" />
+                            </a>
+                            <a title="Google" href="/account/externallogin?provider=Google&amp;returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dportal.nok.se%26redirect_uri%3Dhttps%253A%252F%252Fportal.nok.se%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520naturochkultur%2520login%2520aboservices%2520orders%26response_mode%3Dform_post%26nonce%3D637491070071713590.MTE0NTQyNjctOWEzMi00ZTlhLTlhNDctMzYzODI4MzAzZDI5ZGZhZmNmMDgtYTUxNC00Y2ZiLWI5ODktYTI4NzFkMTJmODNl%26login_hint%26state%3DCfDJ8BKqhpCXDm1MoLwhzW61IrelSAtQL0v1NoCrJ-SPVMWQ6_-_3om_OD5Y5o-RkpABgDtPFeDv7h2OTv3hNOIBtnmqRltmLg90cFpm6NjMPSAUErnA3nLl9S4FlF_s0MgO2pbtYRokyyA9Myl6vzNsjWkMVfQ8xUju030BALaehM8AXTBGQXvb2fsEn9zbb4LAuRmTgo0TyqO1S7wO2_SIrBLOVlAvuQBzYjZxdtwRp09MOuiHpFggfRSy2ecnSW6JDbClC3K2MyP2vnXBQfUosygwlwnsd2UzVaXXyYTZYaCF0Ycubv13V-BEphqUJM1Q2Jyy9r2hpkXHvtEoCoEsM7k%26x-client-SKU%3DID_NETSTANDARD1_4%26x-client-ver%3D5.2.0.0">
+                                <img src="/images/icon-google.svg" />
+                            </a>
+                            <a title="Microsoft" href="/account/externallogin?provider=Microsoft&amp;returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dportal.nok.se%26redirect_uri%3Dhttps%253A%252F%252Fportal.nok.se%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520naturochkultur%2520login%2520aboservices%2520orders%26response_mode%3Dform_post%26nonce%3D637491070071713590.MTE0NTQyNjctOWEzMi00ZTlhLTlhNDctMzYzODI4MzAzZDI5ZGZhZmNmMDgtYTUxNC00Y2ZiLWI5ODktYTI4NzFkMTJmODNl%26login_hint%26state%3DCfDJ8BKqhpCXDm1MoLwhzW61IrelSAtQL0v1NoCrJ-SPVMWQ6_-_3om_OD5Y5o-RkpABgDtPFeDv7h2OTv3hNOIBtnmqRltmLg90cFpm6NjMPSAUErnA3nLl9S4FlF_s0MgO2pbtYRokyyA9Myl6vzNsjWkMVfQ8xUju030BALaehM8AXTBGQXvb2fsEn9zbb4LAuRmTgo0TyqO1S7wO2_SIrBLOVlAvuQBzYjZxdtwRp09MOuiHpFggfRSy2ecnSW6JDbClC3K2MyP2vnXBQfUosygwlwnsd2UzVaXXyYTZYaCF0Ycubv13V-BEphqUJM1Q2Jyy9r2hpkXHvtEoCoEsM7k%26x-client-SKU%3DID_NETSTANDARD1_4%26x-client-ver%3D5.2.0.0">
+                                <img src="/images/icon-microsoft.svg" />
+                            </a>
+                            <a title="Skolfederation" href="/account/externallogin?provider=Skolfederation&amp;returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dportal.nok.se%26redirect_uri%3Dhttps%253A%252F%252Fportal.nok.se%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520naturochkultur%2520login%2520aboservices%2520orders%26response_mode%3Dform_post%26nonce%3D637491070071713590.MTE0NTQyNjctOWEzMi00ZTlhLTlhNDctMzYzODI4MzAzZDI5ZGZhZmNmMDgtYTUxNC00Y2ZiLWI5ODktYTI4NzFkMTJmODNl%26login_hint%26state%3DCfDJ8BKqhpCXDm1MoLwhzW61IrelSAtQL0v1NoCrJ-SPVMWQ6_-_3om_OD5Y5o-RkpABgDtPFeDv7h2OTv3hNOIBtnmqRltmLg90cFpm6NjMPSAUErnA3nLl9S4FlF_s0MgO2pbtYRokyyA9Myl6vzNsjWkMVfQ8xUju030BALaehM8AXTBGQXvb2fsEn9zbb4LAuRmTgo0TyqO1S7wO2_SIrBLOVlAvuQBzYjZxdtwRp09MOuiHpFggfRSy2ecnSW6JDbClC3K2MyP2vnXBQfUosygwlwnsd2UzVaXXyYTZYaCF0Ycubv13V-BEphqUJM1Q2Jyy9r2hpkXHvtEoCoEsM7k%26x-client-SKU%3DID_NETSTANDARD1_4%26x-client-ver%3D5.2.0.0">
+                                <img src="/images/icon-skolfederation.svg" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="body-content-footer">
+
+                <div class="body-content digilar-info">
+                    <img src="/images/digilar-logo.svg" />
+                    <div><a class="Text Text--small" href="https://app.digilar.se/login">Logga in på Digilär</a></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=a47ea152-2862-490b-a2a3-b01502db0246"></script>
+
+    <script>
+        (function () {
+            var runs = 1;
+            var updateZeLocaleTimer = setInterval(updateZeLocale, 100 * runs);
+
+            function updateZeLocale() {
+                runs++;
+
+                if (!zE || !zE.setLocale) {
+                    if (runs > 10) {
+                        clearInterval(updateZeLocaleTimer);
+                    }
+
+                    return;
+                }
+
+                zE.setLocale((navigator.language === 'sv' || navigator.language === 'sv-SE') ? 'sv' : navigator.language);
+
+                clearInterval(updateZeLocaleTimer);
+            }
+        })();
+
+        (function () {
+            var httpRequest = new XMLHttpRequest();
+
+            httpRequest.onreadystatechange = function () {
+                if (httpRequest.readyState === XMLHttpRequest.DONE) {
+                    if (httpRequest.status === 200) {
+                        try {
+                            var statusJson = JSON.parse(httpRequest.responseText);
+
+                            if (!!statusJson.startDate) {
+                                var date = new Date(statusJson.startDate);
+
+                                if (date > new Date()) {
+                                    // Startdate is in future
+                                    return;
+                                }
+                            }
+
+                            if (!!statusJson.endDate) {
+                                var date = new Date(statusJson.endDate);
+
+                                if (date < new Date()) {
+                                    // Enddate has passed
+                                    return;
+                                }
+                            }
+
+                            var messagePlaceholder = document.getElementsByClassName('ImportantMessage')[0];
+
+                            if (!!messagePlaceholder) {
+                                messagePlaceholder.innerHTML = statusJson.message;
+                                messagePlaceholder.style.display = 'block';
+                            }
+
+                        } catch (e) {
+                            console.error('Something went wrong while parsing the status message.');
+                        }
+                    } else if (httpRequest.status == 204) {
+                        // Everything is OK!
+                    } else {
+                        console.error('Could not get systemstatus.');
+                    }
+                }
+            };
+
+            httpRequest.open('GET', 'https://api.nok.se' + '/v2.0/systemstatus');
+            httpRequest.send();
+        })();
+    </script>
+
+
+    <script type="text/javascript">
+        var SIMPLE_LOGINS = ["ArbFormNO","Arduino","elevcolores6","elevcolores7","elevcolores8","elevfordellas","elevframat1","elevframat2","elevframat3","elevframatb","elevframatc","elevlardiglas","fixagenren","fixagrammatiken","FKmetodik","FKmetodikMA","GodLas","GodSkriv","Grammatik","gymnasiearbetet","InputReading","Levanders","MalEtt","MalTva","MedvetenMotorik","Mittimal","Ovamer","pictogloss","reaktionuser","RivstartA1A2","RivstartB1B2","RivstartB2+C1","RivstartB2C1","RivstartYrkesliv","SmartboardFk","SmartboardFS","SOL4000","SoStext","Spotljud4","Spotljud5","Spotljud6","Uppdrag","UppdragS46","usercam1","usercam2","usercam3","usercam4","usercam5","userciao1","userciao2","userds7","userenglishhandbook","usergenial1","usergenial2","usergenial3","usergenial4","usermahla","usermi5","usermi6","usermivoc5","userss5","userss6","userwi7","userwi8","userwi9","vamos","vardagssvenska","Vektor046","Vektor831","Vektor942"];
+    </script>
+    <script src="/js/login-page.js"></script>
+    <script>
+        zE(function () {
+            zE.setHelpCenterSuggestions({ labels: ['login0logga0in'] });
+        });
+    </script>
+
+</body>
+</html>
